@@ -12,7 +12,7 @@ int main() {
         fib[i] = fib[i-1] + fib[i-2];
     }
 
-    printf("Os oito primeiros termos da sequência de Fibonacci são:\n");
+    printf("Os oito primeiros termos da sequencia de Fibonacci sao:\n");
     for (int i = 0; i < n; i++) {
         printf("%d ", fib[i]);
     }
